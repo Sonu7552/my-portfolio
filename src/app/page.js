@@ -1,5 +1,5 @@
 'use client'; // Add this line at the top of your page.js file
-
+import { useMemo } from 'react'; 
 import './globals.css';
 import { useState, useEffect } from 'react';
 import Image from "next/image";
@@ -8,11 +8,11 @@ import { motion } from "framer-motion";
 // TypewriterTagline Component
 function TypewriterTagline() {
   const [text, setText] = useState('');
-  const phrases = [
+  const phrases = useMemo(() => [
     "Bachelor of Software Engineering - Superior University",
     "Graduated in 2024",
     "Specialized in Web & App Development",
-  ];
+  ], []);
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
