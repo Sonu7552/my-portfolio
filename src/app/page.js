@@ -33,7 +33,7 @@ function TypewriterTagline() {
       }, 2000);
       return () => clearTimeout(timeout);
     }
-  }, [charIndex, index]);
+  }, [charIndex, index, phrases]);
 
   return (
     <span className="block text-cyan-400 text-base md:text-lg mt-3 min-h-[3rem] md:min-h-[1.5rem] tracking-wide font-medium">
@@ -68,7 +68,7 @@ export default function Home() {
       <header className="w-full px-4 py-4 flex flex-wrap justify-between items-center backdrop-blur-lg bg-black/70 shadow-xl sticky top-0 z-50 border-b border-gray-800">
         {/* Title */}
         <h1 className="text-xl font-bold tracking-wide text-white glow sm:text-2xl md:text-3xl">
-          Saqib's Portfolio
+          Saqib&apos;s Portfolio
         </h1>
 
         {/* Mobile Hamburger Menu */}
@@ -200,11 +200,11 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-3xl md:text-4xl font-extrabold mb-6 md:mb-8 text-white glow">About Me</h3>
           <p className="text-base md:text-xl text-gray-300 leading-relaxed font-medium">
-            I'm a dedicated <span className="text-white font-bold">Full-Stack Developer</span> who crafts clean, efficient, and engaging digital experiences. My toolbox includes <span className="text-white font-bold">Next.js</span>, <span className="text-white font-bold">Tailwind CSS</span>, and <span className="text-white font-bold">JavaScript</span> on the front end, and powerful backend support using <span className="text-white font-bold">Node.js</span>, <span className="text-white font-bold">MongoDB</span>, and <span className="text-white font-bold">Firebase</span>.
+            I&apos;m a dedicated <span className="text-white font-bold">Full-Stack Developer</span> who crafts clean, efficient, and engaging digital experiences. My toolbox includes <span className="text-white font-bold">Next.js</span>, <span className="text-white font-bold">Tailwind CSS</span>, and <span className="text-white font-bold">JavaScript</span> on the front end, and powerful backend support using <span className="text-white font-bold">Node.js</span>, <span className="text-white font-bold">MongoDB</span>, and <span className="text-white font-bold">Firebase</span>.
             <br /><br />
-            I love transforming complex ideas into sleek interfaces and scalable systems. Whether it's building dynamic web apps, optimizing performance, or implementing real-time features — I bring precision, passion, and creativity to every line of code.
+            I love transforming complex ideas into sleek interfaces and scalable systems. Whether it&apos;s building dynamic web apps, optimizing performance, or implementing real-time features — I bring precision, passion, and creativity to every line of code.
             <br /><br />
-            Constantly evolving, always building — I'm here to push boundaries and turn vision into reality.
+            Constantly evolving, always building — I&apos;m here to push boundaries and turn vision into reality.
           </p>
         </div>
       </section>
@@ -365,7 +365,7 @@ export default function Home() {
       <section id="contact" className="px-6 md:px-20 py-16 md:py-20 text-center">
         <h3 className="text-3xl font-bold mb-4 md:mb-6 text-white glow">Contact Me</h3>
         <p className="text-gray-300 max-w-xl mx-auto mb-6">
-          Ready to create something amazing together? Let's connect!
+          Ready to create something amazing together? Let&apos;s connect!
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
           {/* Gmail Button with Icon */}
