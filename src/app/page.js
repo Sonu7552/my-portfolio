@@ -144,7 +144,7 @@ export default function Home() {
     transition={{ duration: 1 }}
   >
     <h2 className="text-3xl md:text-5xl font-extrabold mb-4 md:mb-6 leading-snug">
-      <span className="text-gray-300">Hi, I'm </span>
+    <span className="text-gray-300">Hi, I&apos;m </span>
       <span className="text-white glow">{name}</span>
     </h2>
 
